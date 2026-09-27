@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de editor
+.vscode/
+.idea/
+*.swp
+
+# Chaves e segredos
+.env
+*.key
+secrets.json
+
+# Builds
+dist/
+build/
+*.zip

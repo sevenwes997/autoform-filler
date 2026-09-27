@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 Auto Form Filler</h1>
+    
+    <div class="section">
+      <h2>Configuração DeepSeek</h2>
+      <input type="password" id="apiKey" placeholder="DeepSeek API Key">
+      <button id="saveApiKey">Salvar API Key</button>
+    </div>
+
+    <div class="section">
+      <h2>Seus Dados</h2>
+      <textarea id="userData" rows="8" placeholder='{
+  "nome": "Seu Nome",
+  "email": "seu@email.com",
+  "telefone": "(11) 99999-9999",
+  "experiencia": "5 anos como desenvolvedor...",
+  "habilidades": ["JavaScript", "Python", "React"],
+  "formacao": "Ciência da Computação"
+}'></textarea>
+      <button id="saveData">Salvar Dados</button>
+      <button id="loadSample">Carregar Exemplo</button>
+    </div>
+
+    <div class="section">
+      <h2>Ações</h2>
+      <button id="analyzeForm" class="primary">🔍 Analisar Formulário</button>
+      <button id="fillForm" class="primary">✍️ Preencher Formulário</button>
+      <button id="analyzeAndFill" class="primary">🚀 Analisar e Preencher</button>
+    </div>
+
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
