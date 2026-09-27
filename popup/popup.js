@@ -42,16 +42,16 @@ document.addEventListener('DOMContentLoaded', () => {
   // Carregar exemplo
   document.getElementById('loadSample').addEventListener('click', () => {
     const sampleData = {
-      "nome": "Wesley Ribeiro da Silva Neves",
-      "email": "sevenwes997@outlook.com",
-      "telefone": "(71) 99337-4306",
-      "endereco": "Rua do Timbo, 534 - Salvador/BA",
-      "experiencia": "Atuo na área de Tecnologia da Informação desde 2021, com experiência em suporte técnico, implantação de sistemas e atendimento ao cliente.",
-      "habilidades": ["Suporte Técnico", "Atendimento ao Cliente", "Windows", "Infraestrutura de TI"],
-      "formacao": "Análise e Desenvolvimento de Sistemas - UNIFACS",
-      "linkedin": "https://www.linkedin.com/in/wesley-neves-249370175/",
-      "objetivo": "Tech Lead",
-      "disponibilidade": "Imediata"
+      "nome": "",
+      "email": "",
+      "telefone": "",
+      "endereco": "",
+      "experiencia": "",
+      "habilidades": [""],
+      "formacao": "",
+      "linkedin": "",
+      "objetivo": "",
+      "disponibilidade": ""
     };
     document.getElementById('userData').value = JSON.stringify(sampleData, null, 2);
   });
